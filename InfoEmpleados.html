@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Formulario - Info Empleados</title>
+</head>
+<body>
+  <h1>Registro de Empleado</h1>
+  <form action="informacion.php" method="post">
+    <label>Nombre:<br><input type="text" name="nombre" required></label><br><br>
+    <label>Edad:<br><input type="number" name="edad" required></label><br><br>
+    <label>Dirección:<br><input type="text" name="direccion"></label><br><br>
+    <label>Salario:<br><input type="number" step="0.01" name="salario"></label><br><br>
+    <label>Correo:<br><input type="email" name="correo"></label><br><br>
+    <label>Cargo:<br><input type="text" name="cargo"></label><br><br>
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
